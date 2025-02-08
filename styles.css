@@ -35,6 +35,7 @@ body {
   backface-visibility: hidden;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 5%;
 }
 
 /* Lado frontal */
@@ -53,7 +54,6 @@ body {
 .back {
   background: white;
   transform: rotateY(180deg);
-  padding: 20px;
   text-align: center;
   cursor: pointer;
 }
