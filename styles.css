@@ -35,7 +35,7 @@ body {
   backface-visibility: hidden;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  padding: 5%;
+  padding: 10px;
 }
 
 /* Lado frontal */
@@ -114,12 +114,24 @@ body {
 
 @media (max-width: 768px) {
 
-  .flipper p {
-    font-size: 12px;
+  .front, .back {
+    width: 100%;
   }
 
-  .header, .footer {
-    font-size: 18px;
+  .header {
+    /* padding: 15px; */
+    font-size: 1.1rem;
+  }
+
+  .content {
+    /* padding: 10px; */
+    font-size: 0.8rem;
+  }  
+
+  .footer {
+    /* padding: 10px; */
+    font-size: 0.8rem;
+    /* margin-top: 10px; */
   }
 
 }
