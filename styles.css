@@ -115,11 +115,11 @@ body {
 @media (max-width: 768px) {
 
   .flipper p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .header, .footer {
-    font-size: 16px;
+    font-size: 18px;
   }
 
 }
