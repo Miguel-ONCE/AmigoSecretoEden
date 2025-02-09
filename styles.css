@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to bottom, #ff9a9e, #fad0c4); */
-  background-image: url('./valentinDay5.jpg');
+  background-image: url('./fondo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,12 +39,13 @@ body {
   backface-visibility: hidden;
   border-radius: 15px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  padding: 10px;
+  /* box-shadow: 0 8px 15px #F32E63; */
+  padding: 15px;
 }
 
-/* Lado frontal */
 .front {
-  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  /* background: linear-gradient(to right, #ff758c, #ff7eb3); */
+  background: linear-gradient(to bottom, #F32E63, #ff758c);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +63,8 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  /* background: linear-gradient(to right, #ff758c, #ff7eb3); */
+  background: #F32E63;
   color: white;
   padding: 15px;
   font-size: 1.3rem;
@@ -98,7 +100,8 @@ body {
 }
 
 .footer {
-  background: #ff758c;
+  /* background: #ff758c; */
+  background: #F32E63;  
   color: white;
   padding: 10px;
   font-size: 1rem;
@@ -119,22 +122,19 @@ body {
 
   .front, .back {
     width: 100%;
+    padding: 0;
   }
 
   .header {
-    /* padding: 15px; */
     font-size: 1.1rem;
   }
 
   .content {
-    /* padding: 10px; */
     font-size: 0.8rem;
   }  
 
   .footer {
-    /* padding: 10px; */
     font-size: 0.8rem;
-    /* margin-top: 10px; */
   }
 
 }
