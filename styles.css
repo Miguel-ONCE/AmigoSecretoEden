@@ -114,6 +114,6 @@ body {
 
 @media (max-width: 768px) { /* Cambia el tamaño de pantalla según sea necesario */
   .flipper p {
-    font-size: 8px; /* Tamaño más pequeño cuando la pantalla es menor a 768px */
+    font-size: 15px; /* Tamaño más pequeño cuando la pantalla es menor a 768px */
   }
 }
