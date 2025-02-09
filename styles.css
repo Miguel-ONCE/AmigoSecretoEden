@@ -2,7 +2,11 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  /* background: linear-gradient(to bottom, #ff9a9e, #fad0c4); */
+  background-image: url('./valentinDay5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +54,6 @@ body {
   cursor: pointer;
 }
 
-/* Lado trasero (contenido de la carta) */
 .back {
   background: white;
   transform: rotateY(180deg);
