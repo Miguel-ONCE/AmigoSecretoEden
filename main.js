@@ -14,7 +14,7 @@ $(document).ready(function () {
     
     if (hora >= 0 && hora < 12) {
       mensaje = "¡Buenos días abogada! Pulse aquí para descubrir un mensaje";
-  } else if (hora >= 12 && hora < 18) {
+  } else if (hora >= 12 && hora < 19) {
       mensaje = "¡Buenas tardes abogada! Pulse aquí para descubrir un mensaje";
   } else {
       mensaje = "¡Buenas noches abogada! Pulse aquí para descubrir un mensaje";
